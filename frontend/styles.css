@@ -1,0 +1,74 @@
+body {
+    background-color: #121212;
+    color: #E0E0E0;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar {
+    background: rgba(30, 30, 30, 0.5);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.nav-links li {
+    display: inline;
+    margin: 0 10px;
+}
+.nav-links a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.hero {
+    background-image: url('https://example.com/hero-image.jpg');
+    background-size: cover;
+    padding: 100px 20px;
+    text-align: center;
+}
+.cta-button {
+    background-color: rgba(0, 191, 255, 0.5);
+    border: none;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+}
+.feature-card {
+    background: rgba(30, 30, 30, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+.about {
+    display: flex;
+    padding: 50px 20px;
+}
+.about-image {
+    background-image: url('https://example.com/about-image.jpg');
+    background-size: cover;
+    width: 50%;
+    height: 300px;
+}
+.about-text {
+    padding: 20px;
+}
+.testimonials {
+    padding: 50px 20px;
+}
+.testimonial-card {
+    background: rgba(30, 30, 30, 0.5);
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+.contact-form {
+    background: rgba(30, 30, 30, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+footer {
+    background-color: #1E1E1E;
+    padding: 20px;
+    text-align: center;
+}
